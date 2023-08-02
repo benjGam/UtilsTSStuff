@@ -4,7 +4,7 @@ export class StringUtils {
     sequence: string,
   ): number {
     for (let i = toAnalyze.length - 1; i > 0; i--) {
-      if (toAnalyze[i] != sequence) return i;
+      if (toAnalyze[i] != sequence) return i + 1;
     }
   }
 }
